@@ -1,8 +1,7 @@
-# **Trivia Game: Server-Client Application**
 <h1 align="center">
   <a><img src="https://github.com/nivlevyy/trivia_server/blob/main/image/trivia_server.webp" width="300"></a>
 <br>
-# Custom HTTP 1.1 Web Server
+# Trivia Game: Server-Client Application**
 <br>
 </h1>
 
