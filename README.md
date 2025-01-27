@@ -5,24 +5,22 @@
 <br>
 </h1>
 
-## **Overview**
+## Overview
 
-This project is a multiplayer trivia game built using a client-server architecture. The server handles multiple clients simultaneously, manages user data and trivia questions, and ensures smooth gameplay. The clients communicate with the server to log in, answer questions, view scores, and more.
+This project is a multiplayer trivia game built using a client-server architecture. The server handles multiple clients simultaneously, manages user data and trivia questions, and ensures smooth gameplay. Clients communicate with the server to log in, answer questions, view scores, and more.
 
 ---
 
-## **Features**
+## Features
 
-### **Server**
-
+### Server
 - Manages user authentication (login/logout) and maintains active user sessions.
 - Serves trivia questions stored in a local JSON file or fetched dynamically from a web API.
-- Tracks user scores and provides high scores globally.
+- Tracks user scores and provides global high scores.
 - Supports multiple simultaneous client connections using the `select` system call.
 - Includes robust error handling and logging mechanisms.
 
-### **Client**
-
+### Client
 - User-friendly CLI for logging in, answering questions, and viewing scores.
 - Allows users to:
   - Answer trivia questions.
@@ -32,16 +30,16 @@ This project is a multiplayer trivia game built using a client-server architectu
 
 ---
 
-## **Technologies Used**
+## Technologies Used
 
 - **Programming Language**: Python
 - **Networking**: TCP sockets
 - **Data Handling**: JSON
-- **Logging**: Python’s `logging` module for debugging and tracking server and client activities.
+- **Logging**: Python’s `logging` module
 
 ---
 
-## **Installation**
+## Installation
 
 1. Clone the repository:
    ```bash
@@ -51,85 +49,97 @@ This project is a multiplayer trivia game built using a client-server architectu
    ```bash
    cd trivia_server
    ```
-
----
-
-## **How to Run**
-
-### **Start the Server**
-
-1. Run the server using:
+3. Install dependencies:
    ```bash
-   python server_tcp.py
+   pip install -r requirements.txt
    ```
-2. The server will start listening on `0.0.0.0:5678` by default.
-
-### **Start a Client**
-
-1. Run the client using:
-   ```bash
-   python client_tcp.py
-   ```
-2. Follow the on-screen prompts to log in or register and start playing.
 
 ---
 
-## **Game Workflow**
+## How to Run
 
-1. Users log in or register through the client interface.
-2. Clients can request:
-   - Trivia questions
-   - Personal or global high scores
-   - Logged-in user list
-3. Users answer questions to earn points.
-4. The server updates scores and handles all communication with active clients.
+### Start the Server
+Run the server:
+```bash
+python main.py --role server --port 5678 --host 0.0.0.0
+```
 
----
-
-## **Instructions**
-
-1. Start the server:
-   ```bash
-   python server_tcp.py
-   ```
-2. Start clients:
-   ```bash
-   python client_tcp.py
-   ```
-3. Log in with a username and password (default users are in `Users.json`; you can add more users manually).
-
-### Client Options:
-
-1. Answer a question - Uses questions from the database or an API (switch by changing `load_questions` to `load_questions_from_web` in `setup_socket`).
-2. Get my score - Displays the player’s current score.
-3. Get high score - Shows all player scores sorted from highest to lowest.
-4. Get logged users - Lists all currently logged-in users.
-5. Quit - Logs out and closes the client.
+### Start a Client
+Run the client:
+```bash
+python main.py --role client --port 5678 --host 127.0.0.1
+```
 
 ---
 
-## **File Structure**
+## Game Workflow
 
-- **`server_tcp.py`**: Implements the server logic, handling multiple clients and game data.
-- **`client_tcp.py`**: Implements the client-side logic for user interaction and communication with the server.
-- **`logger_manager.py`**: Manages logging functionality for both server and clients.
-- **`Users.json`**: Stores user credentials and scores.
-- **`questions.json`**: Stores trivia questions and answers.
+1. **Log In or Register:**
+   - Clients can log in with a username and password or register a new account.
+   - Default users are stored in `Users.json`. You can add more manually.
+2. **Gameplay Options:**
+   - `1`: Answer trivia questions.
+   - `2`: View personal scores.
+   - `3`: View global high scores.
+   - `4`: See logged-in users.
+   - `5`: Quit the game.
+3. **Questions Handling:**
+   - Questions are retrieved from `questions.json` or dynamically fetched from a web API (configurable in the server).
+4. **Scoring:**
+   - Correct answers increase the user’s score.
+   - High scores are displayed in descending order.
 
 ---
 
-## **Future Enhancements**
+## Configuration
+
+- **Switch Questions Source:**
+  Modify `load_questions` or `load_questions_from_web` in `server_tcp.py`:
+  ```python
+  questions = self.load_questions()  # Local JSON
+  # OR
+  questions = self.load_questions_from_web()  # Web API
+  ```
+
+- **Change Port or Host:**
+  Specify these options when running `main.py`:
+  ```bash
+  python main.py --role server --port 5678 --host 0.0.0.0
+  python main.py --role client --port 5678 --host 127.0.0.1
+  ```
+
+---
+
+## File Structure
+
+```plaintext
+trivia_server/
+├── main.py                # Entry point for server or client
+├── server_tcp.py          # Server logic
+├── client_tcp.py          # Client logic
+├── logger_manager.py      # Logging functionality
+├── Users.json             # User data
+├── questions.json         # Trivia questions
+├── requirements.txt       # Python dependencies
+├── README.md              # Project documentation
+```
+
+---
+
+## Future Enhancements
 
 - Add a graphical user interface (GUI) for the client.
-- Implement advanced authentication mechanisms (e.g., hashed passwords).
+- Implement advanced authentication (e.g., hashed passwords).
 - Add support for more question types (e.g., true/false).
 
 ---
 
-## **License**
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ---
+
+
 
 
