@@ -31,13 +31,6 @@ def main():
     elif args.role == 'client':
         logger.info("starting new client...")
         client_fol.client_tcp.client.starting_client()
-    # if role=='server':
-    #     logger.info("Starting Server...")
-    #     server_fol.server_tcp.server.starting_server(host,port)
-    #     server_on=True
-    # elif role =='client':
-    #     logger.info("starting new client...")
-    #     client_fol.client_tcp.client.starting_client()
     
     
 if __name__ == "__main__":
