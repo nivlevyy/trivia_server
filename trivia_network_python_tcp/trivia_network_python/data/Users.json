@@ -1,0 +1,5 @@
+{
+    "test": {"password": "test", "score": 0, "questions_asked": []},
+    "player1": {"password": "p1password", "score": 100, "questions_asked": [1, 3]},
+    "master": {"password": "masterpass", "score": 500, "questions_asked": []}
+}

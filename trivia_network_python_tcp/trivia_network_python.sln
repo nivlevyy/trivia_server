@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "trivia_network_python", "trivia_network_python\trivia_network_python.pyproj", "{859D9E4D-5E8C-4385-A9B9-8074544A2690}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{859D9E4D-5E8C-4385-A9B9-8074544A2690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{859D9E4D-5E8C-4385-A9B9-8074544A2690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48A3BD07-7A2E-4DF7-A619-C9D14829E032}
+	EndGlobalSection
+EndGlobal

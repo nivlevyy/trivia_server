@@ -1,0 +1,637 @@
+{
+	"1": {"question": "How much is 2+2?", "answers": ["3", "4", "2", "1"], "correct": 1},
+	"2": {"question": "What is the capital of France?", "answers": ["Lion", "Marseille", "Paris", "Montpellier"], "correct": 2},
+	"3": {"question": "What is the color of the sky?", "answers": ["Blue", "Red", "Green", "Yellow"], "correct": 1},
+	"4": {
+	"question": "Who developed the theory of relativity?",
+        "answers": ["Isaac Newton", "Albert Einstein", "Nikola Tesla", "Galileo Galilei"],
+        "correct": 1},
+	"5": {
+        "question": "Which planet is known as the Red Planet?",
+        "answers": ["Earth", "Mars", "Jupiter", "Saturn"],
+        "correct": 1},
+	"6": {
+        "question": "What is the largest ocean on Earth?",
+        "answers": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+        "correct": 3},
+	"7": {
+        "question": "What is the boiling point of water at sea level (°C)?",
+        "answers": ["50", "90", "100", "150"],
+        "correct": 2},
+	"8": {
+        "question": "How many colors are there in a rainbow?",
+        "answers": ["5", "6", "7", "8"],
+        "correct": 2},
+	"9": {
+        "question": "What is the largest continent by area?",
+        "answers": ["Africa", "Asia", "North America", "Europe"],
+        "correct": 1},
+	"10": {
+        "question": "Which element has the chemical symbol 'O'?",
+        "answers": ["Osmium", "Oxygen", "Oxide", "Oganesson"],
+        "correct": 1},
+	"11": {
+	"question": "What is the smallest planet in our solar system?",
+        "answers": ["Earth", "Mercury", "Mars", "Venus"],
+    	"correct": 1},
+	"12": {
+	"question": "Who painted the Mona Lisa?",
+	"answers": ["Pablo Picasso", "Vincent van Gogh", "Leonardo da Vinci", "Claude Monet"],
+	"correct": 2},
+"13": {
+    "question": "What gas do plants absorb from the atmosphere?",
+    "answers": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Helium"],
+    "correct": 2
+},
+"14": {
+    "question": "Which animal is known as the King of the Jungle?",
+    "answers": ["Elephant", "Tiger", "Lion", "Bear"],
+    "correct": 2
+},
+"15": {
+    "question": "What is the hardest natural substance on Earth?",
+    "answers": ["Gold", "Diamond", "Iron", "Granite"],
+    "correct": 1
+},
+"16": {
+    "question": "What is the main ingredient in sushi?",
+    "answers": ["Noodles", "Rice", "Bread", "Tofu"],
+    "correct": 1
+},
+"17": {
+    "question": "Which country is known as the Land of the Rising Sun?",
+    "answers": ["China", "South Korea", "Japan", "Thailand"],
+    "correct": 2
+},
+"18": {
+    "question": "What is the capital city of Canada?",
+    "answers": ["Toronto", "Ottawa", "Montreal", "Vancouver"],
+    "correct": 1
+},
+"19": {
+    "question": "What is the tallest mountain in the world?",
+    "answers": ["K2", "Kangchenjunga", "Mount Everest", "Lhotse"],
+    "correct": 2
+},
+"20": {
+    "question": "Who wrote 'Romeo and Juliet'?",
+    "answers": ["Mark Twain", "William Shakespeare", "Charles Dickens", "Jane Austen"],
+    "correct": 1},"21": {
+    "question": "Which metal is liquid at room temperature?",
+    "answers": ["Iron", "Mercury", "Aluminum", "Copper"],
+    "correct": 1
+},
+"22": {
+    "question": "How many planets are in our solar system?",
+    "answers": ["7", "8", "9", "10"],
+    "correct": 1
+},
+"23": {
+    "question": "What is the largest mammal?",
+    "answers": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
+    "correct": 1
+},
+"24": {
+    "question": "Who is known as the father of modern computers?",
+    "answers": ["Charles Babbage", "Alan Turing", "Bill Gates", "Steve Jobs"],
+    "correct": 0
+},
+"25": {
+    "question": "What is the capital city of Italy?",
+    "answers": ["Milan", "Rome", "Venice", "Naples"],
+    "correct": 1
+},
+"26": {
+    "question": "Which vitamin is known as the sunshine vitamin?",
+    "answers": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
+    "correct": 3
+},
+"27": {
+    "question": "How many bones are in the human body?",
+    "answers": ["206", "210", "215", "220"],
+    "correct": 0
+},
+"28": {
+    "question": "Which language has the most native speakers?",
+    "answers": ["English", "Mandarin Chinese", "Spanish", "Hindi"],
+    "correct": 1
+},
+"29": {
+    "question": "What is the primary gas in Earth's atmosphere?",
+    "answers": ["Oxygen", "Hydrogen", "Nitrogen", "Carbon Dioxide"],
+    "correct": 2
+},
+"30": {
+    "question": "What is the main ingredient in chocolate?",
+    "answers": ["Vanilla", "Cocoa", "Sugar", "Milk"],
+    "correct": 1
+},
+"31": {
+    "question": "Which element has the atomic number 1?",
+    "answers": ["Oxygen", "Helium", "Hydrogen", "Carbon"],
+    "correct": 2
+},
+"32": {
+    "question": "What is the tallest animal in the world?",
+    "answers": ["Elephant", "Giraffe", "Horse", "Lion"],
+    "correct": 1
+},
+"33": {
+    "question": "How many sides does a hexagon have?",
+    "answers": ["4", "5", "6", "7"],
+    "correct": 2
+},
+"34": {
+    "question": "Who invented the telephone?",
+    "answers": ["Thomas Edison", "Nikola Tesla", "Alexander Graham Bell", "Henry Ford"],
+    "correct": 2
+},
+"35": {
+    "question": "Which country is known for the Eiffel Tower?",
+    "answers": ["Italy", "France", "Spain", "Germany"],
+    "correct": 1
+},
+"36": {
+    "question": "What is the largest internal organ in the human body?",
+    "answers": ["Liver", "Heart", "Brain", "Lung"],
+    "correct": 0
+},
+"37": {
+    "question": "Which country is home to the Great Barrier Reef?",
+    "answers": ["USA", "Brazil", "Australia", "India"],
+    "correct": 2
+},
+"38": {
+    "question": "What is the most spoken language in Brazil?",
+    "answers": ["English", "Spanish", "Portuguese", "French"],
+    "correct": 2
+},
+"39": {
+    "question": "What type of galaxy is the Milky Way?",
+    "answers": ["Elliptical", "Spiral", "Irregular", "Barred Spiral"],
+    "correct": 3
+},
+"40": {
+    "question": "Who was the first person to walk on the moon?",
+    "answers": ["Buzz Aldrin", "Michael Collins", "Yuri Gagarin", "Neil Armstrong"],
+    "correct": 3
+},
+"41": {
+    "question": "How many letters are there in the English alphabet?",
+    "answers": ["24", "25", "26", "27"],
+    "correct": 2
+},
+"42": {
+    "question": "What is the hardest rock?",
+    "answers": ["Marble", "Granite", "Diamond", "Quartz"],
+    "correct": 2
+},
+"43": {
+    "question": "Which planet has the most moons?",
+    "answers": ["Mars", "Jupiter", "Saturn", "Uranus"],
+    "correct": 2
+},
+"44": {
+    "question": "What is the capital of Japan?",
+    "answers": ["Kyoto", "Osaka", "Tokyo", "Hiroshima"],
+    "correct": 2
+},
+"45": {
+    "question": "What is the symbol for potassium?",
+    "answers": ["P", "K", "Pt", "Po"],
+    "correct": 1
+},
+"46": {
+    "question": "Who painted the Starry Night?",
+    "answers": ["Vincent van Gogh", "Claude Monet", "Pablo Picasso", "Salvador Dalí"],
+    "correct": 0
+},
+"47": {
+    "question": "What is the smallest unit of matter?",
+    "answers": ["Atom", "Molecule", "Electron", "Neutron"],
+    "correct": 0
+},
+"48": {
+    "question": "Who discovered penicillin?",
+    "answers": ["Marie Curie", "Alexander Fleming", "Isaac Newton", "Albert Einstein"],
+    "correct": 1
+},
+"49": {
+    "question": "What planet is closest to the Sun?",
+    "answers": ["Earth", "Mars", "Mercury", "Venus"],
+    "correct": 2
+},
+"50": {
+    "question": "What is the main ingredient in hummus?",
+    "answers": ["Potatoes", "Chickpeas", "Lentils", "Peas"],
+    "correct": 1
+},"51": {
+    "question": "What is the longest river in the world?",
+    "answers": ["Amazon River", "Yangtze River", "Nile River", "Mississippi River"],
+    "correct": 2
+},
+"52": {
+    "question": "What is the main component of the sun?",
+    "answers": ["Carbon", "Oxygen", "Hydrogen", "Nitrogen"],
+    "correct": 2
+},
+"53": {
+    "question": "What is the smallest bone in the human body?",
+    "answers": ["Femur", "Stapes", "Ulna", "Scapula"],
+    "correct": 1
+},
+"54": {
+    "question": "Which organ purifies blood in the human body?",
+    "answers": ["Heart", "Kidneys", "Liver", "Lungs"],
+    "correct": 1
+},
+"55": {
+    "question": "Who discovered gravity?",
+    "answers": ["Albert Einstein", "Isaac Newton", "Galileo Galilei", "Stephen Hawking"],
+    "correct": 1
+},
+"56": {
+    "question": "Which is the smallest country in the world?",
+    "answers": ["Monaco", "Malta", "Vatican City", "San Marino"],
+    "correct": 2
+},
+"57": {
+    "question": "How many hearts does an octopus have?",
+    "answers": ["1", "2", "3", "4"],
+    "correct": 2
+},
+"58": {
+    "question": "Who wrote 'Pride and Prejudice'?",
+    "answers": ["Charles Dickens", "Jane Austen", "Mark Twain", "Ernest Hemingway"],
+    "correct": 1
+},
+"59": {
+    "question": "What is the square root of 64?",
+    "answers": ["6", "7", "8", "9"],
+    "correct": 2
+},
+"60": {
+    "question": "What is the chemical symbol for gold?",
+    "answers": ["Ag", "Au", "Pb", "Fe"],
+    "correct": 1
+},
+"61": {
+    "question": "Which planet is known for its rings?",
+    "answers": ["Mars", "Jupiter", "Saturn", "Neptune"],
+    "correct": 2
+},
+"62": {
+    "question": "How many continents are there?",
+    "answers": ["5", "6", "7", "8"],
+    "correct": 2
+},
+"63": {
+    "question": "What year did the Titanic sink?",
+    "answers": ["1910", "1912", "1914", "1920"],
+    "correct": 1
+},
+"64": {
+    "question": "What is the largest land animal?",
+    "answers": ["Giraffe", "Elephant", "Rhino", "Hippo"],
+    "correct": 1
+},
+"65": {
+    "question": "What is the freezing point of water (°C)?",
+    "answers": ["0", "-10", "10", "32"],
+    "correct": 0
+},
+"66": {
+    "question": "Who is the author of 'Harry Potter'?",
+    "answers": ["J.K. Rowling", "Stephen King", "Roald Dahl", "George R.R. Martin"],
+    "correct": 0
+},
+"67": {
+    "question": "Which animal can regenerate its limbs?",
+    "answers": ["Frog", "Lizard", "Starfish", "Elephant"],
+    "correct": 2
+},
+"68": {
+    "question": "What is the capital city of Australia?",
+    "answers": ["Sydney", "Melbourne", "Perth", "Canberra"],
+    "correct": 3
+},
+"69": {
+    "question": "Who painted the Sistine Chapel ceiling?",
+    "answers": ["Raphael", "Leonardo da Vinci", "Michelangelo", "Donatello"],
+    "correct": 2
+},
+"70": {
+    "question": "Which planet is known as the Earth's twin?",
+    "answers": ["Mars", "Venus", "Jupiter", "Saturn"],
+    "correct": 1
+},
+"71": {
+    "question": "How many grams are in a kilogram?",
+    "answers": ["100", "500", "1000", "1500"],
+    "correct": 2
+},
+"72": {
+    "question": "What is the main ingredient in guacamole?",
+    "answers": ["Tomato", "Onion", "Lettuce", "Avocado"],
+    "correct": 3
+},
+"73": {
+    "question": "Which gas do humans exhale?",
+    "answers": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+    "correct": 2
+},
+"74": {
+    "question": "Which organelle is known as the powerhouse of the cell?",
+    "answers": ["Nucleus", "Mitochondria", "Ribosome", "Endoplasmic Reticulum"],
+    "correct": 1
+},
+"75": {
+    "question": "What color is the M in the McDonald's logo?",
+    "answers": ["Blue", "Green", "Yellow", "Red"],
+    "correct": 2
+},
+"76": {
+    "question": "How many degrees are in a circle?",
+    "answers": ["90", "180", "270", "360"],
+    "correct": 3
+},
+"77": {
+    "question": "What is the chemical formula for water?",
+    "answers": ["O2", "H2O", "CO2", "H2"],
+    "correct": 1
+},
+"78": {
+    "question": "Which famous building is in Paris?",
+    "answers": ["Eiffel Tower", "Big Ben", "Statue of Liberty", "Colosseum"],
+    "correct": 0
+},
+"79": {
+    "question": "What is the largest organ in the human body?",
+    "answers": ["Heart", "Liver", "Skin", "Brain"],
+    "correct": 2
+},
+"80": {
+    "question": "Who was the first President of the United States?",
+    "answers": ["Abraham Lincoln", "George Washington", "Thomas Jefferson", "John Adams"],
+    "correct": 1
+},
+"81": {
+    "question": "What is the chemical symbol for sodium?",
+    "answers": ["Na", "So", "S", "Sn"],
+    "correct": 0
+},
+"82": {
+    "question": "What is the capital of Egypt?",
+    "answers": ["Cairo", "Alexandria", "Giza", "Luxor"],
+    "correct": 0
+},
+"83": {
+    "question": "Which planet is closest to Earth?",
+    "answers": ["Mars", "Venus", "Mercury", "Jupiter"],
+    "correct": 1
+},
+"84": {
+    "question": "What type of animal is a Komodo dragon?",
+    "answers": ["Mammal", "Bird", "Reptile", "Amphibian"],
+    "correct": 2
+},
+"85": {
+    "question": "Who wrote 'The Odyssey'?",
+    "answers": ["Homer", "Shakespeare", "Socrates", "Plato"],
+    "correct": 0
+},
+"86": {
+    "question": "How many teeth does an adult human have?",
+    "answers": ["28", "30", "32", "34"],
+    "correct": 2
+},
+"87": {
+    "question": "What is the process by which plants make food?",
+    "answers": ["Respiration", "Photosynthesis", "Transpiration", "Fermentation"],
+    "correct": 1
+},
+"88": {
+    "question": "What does DNA stand for?",
+    "answers": ["Deoxyribonucleic Acid", "Deoxynucleotide Acid", "Deoxyribosomal Acid", "Deoxynucleoside Acid"],
+    "correct": 0
+},
+"89": {
+    "question": "Who painted 'The Last Supper'?",
+    "answers": ["Michelangelo", "Raphael", "Leonardo da Vinci", "Vincent van Gogh"],
+    "correct": 2
+},
+"90": {
+    "question": "What is the main language spoken in Argentina?",
+    "answers": ["Portuguese", "English", "Spanish", "Italian"],
+    "correct": 2
+},
+"91": {
+    "question": "Which sea creature has three hearts?",
+    "answers": ["Shark", "Dolphin", "Octopus", "Whale"],
+    "correct": 2
+},
+"92": {
+    "question": "How many holes are there on a standard golf course?",
+    "answers": ["9", "12", "18", "24"],
+    "correct": 2
+},
+"93": {
+    "question": "What is the name of the longest bone in the human body?",
+    "answers": ["Humerus", "Femur", "Fibula", "Tibia"],
+    "correct": 1
+},
+"94": {
+    "question": "What is the official currency of Japan?",
+    "answers": ["Yuan", "Won", "Yen", "Dollar"],
+    "correct": 2
+},
+"95": {
+    "question": "What color are most leaves in summer?",
+    "answers": ["Yellow", "Green", "Red", "Blue"],
+    "correct": 1
+},
+"96": {
+    "question": "What is the national sport of Japan?",
+    "answers": ["Judo", "Karate", "Sumo Wrestling", "Baseball"],
+    "correct": 2
+},
+"97": {
+    "question": "Which bird is often associated with delivering babies?",
+    "answers": ["Stork", "Eagle", "Owl", "Robin"],
+    "correct": 0
+},
+"98": {
+    "question": "Who discovered electricity?",
+    "answers": ["Albert Einstein", "Benjamin Franklin", "Isaac Newton", "Nikola Tesla"],
+    "correct": 1
+},
+"99": {
+    "question": "What is the boiling point of water in Fahrenheit?",
+    "answers": ["100", "150", "212", "180"],
+    "correct": 2
+},
+"100": {
+    "question": "How many stripes are on the US flag?",
+    "answers": ["10", "13", "15", "20"],
+    "correct": 1
+},
+"101": {
+    "question": "Who invented the light bulb?",
+    "answers": ["Alexander Graham Bell", "Nikola Tesla", "Thomas Edison", "James Watt"],
+    "correct": 2
+},
+"102": {
+    "question": "What is the capital of Canada?",
+    "answers": ["Toronto", "Montreal", "Vancouver", "Ottawa"],
+    "correct": 3
+},
+"103": {
+    "question": "Which month has an extra day in a leap year?",
+    "answers": ["January", "February", "March", "April"],
+    "correct": 1
+},
+"104": {
+    "question": "What is the most abundant gas in Earth's atmosphere?",
+    "answers": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+    "correct": 2
+},
+"105": {
+    "question": "What is the capital of Russia?",
+    "answers": ["Saint Petersburg", "Moscow", "Kazan", "Novosibirsk"],
+    "correct": 1
+},
+"106": {
+    "question": "What is the heaviest naturally occurring element?",
+    "answers": ["Lead", "Uranium", "Gold", "Iron"],
+    "correct": 1
+},
+"107": {
+    "question": "Which element does 'C' represent on the periodic table?",
+    "answers": ["Copper", "Carbon", "Cobalt", "Calcium"],
+    "correct": 1
+},
+"108": {
+    "question": "Which animal is known for being the symbol of wisdom?",
+    "answers": ["Lion", "Owl", "Elephant", "Eagle"],
+    "correct": 1
+},
+"109": {
+    "question": "What planet is famous for its Great Red Spot?",
+    "answers": ["Earth", "Mars", "Jupiter", "Saturn"],
+    "correct": 2
+},
+"110": {
+    "question": "Which country is the largest by land area?",
+    "answers": ["China", "Canada", "Russia", "United States"],
+    "correct": 2
+},
+"111": {
+    "question": "Which sea is the saltiest in the world?",
+    "answers": ["Red Sea", "Mediterranean Sea", "Baltic Sea", "Dead Sea"],
+    "correct": 3
+},
+"112": {
+    "question": "Who was the Greek god of war?",
+    "answers": ["Zeus", "Apollo", "Ares", "Hermes"],
+    "correct": 2
+},
+"113": {
+    "question": "What color are rubies?",
+    "answers": ["Blue", "Green", "Red", "Yellow"],
+    "correct": 2
+},
+"114": {
+    "question": "What is the capital of South Korea?",
+    "answers": ["Busan", "Seoul", "Incheon", "Daegu"],
+    "correct": 1
+},
+"115": {
+    "question": "What is the largest fish species?",
+    "answers": ["Great White Shark", "Blue Whale", "Whale Shark", "Dolphin"],
+    "correct": 2
+},
+"116": {
+    "question": "What is the largest desert in the world?",
+    "answers": ["Sahara", "Gobi", "Arabian", "Antarctic"],
+    "correct": 3
+},
+"117": {
+    "question": "How many planets are in the Milky Way?",
+    "answers": ["8", "100+", "1000+", "Billions"],
+    "correct": 3
+},
+"118": {
+    "question": "What does 'www' stand for in a website browser?",
+    "answers": ["World Web Way", "World Wide Web", "Wide Web World", "Web World Wide"],
+    "correct": 1
+},
+"119": {
+    "question": "How many legs does a lobster have?",
+    "answers": ["6", "8", "10", "12"],
+    "correct": 2
+},
+"120": {
+    "question": "In which city is the Statue of Liberty located?",
+    "answers": ["Boston", "New York", "Washington D.C.", "Philadelphia"],
+    "correct": 1
+},
+"121": {
+    "question": "What is the hardest mineral on Earth?",
+    "answers": ["Topaz", "Quartz", "Diamond", "Sapphire"],
+    "correct": 2
+},
+"122": {
+    "question": "Which is the most populated country?",
+    "answers": ["India", "China", "United States", "Indonesia"],
+    "correct": 1
+},
+"123": {
+    "question": "What organ pumps blood through the human body?",
+    "answers": ["Brain", "Kidneys", "Heart", "Lungs"],
+    "correct": 2
+},
+"124": {
+    "question": "Which planet has the longest day?",
+    "answers": ["Venus", "Mercury", "Earth", "Mars"],
+    "correct": 0
+},
+"125": {
+    "question": "What is the main source of energy for Earth?",
+    "answers": ["Wind", "Moon", "Sun", "Fire"],
+    "correct": 2
+},
+"126": {
+    "question": "What is the highest-grossing film of all time (as of 2021)?",
+    "answers": ["Titanic", "Avatar", "Avengers: Endgame", "The Lion King"],
+    "correct": 2
+},
+"127": {
+    "question": "What is the rarest blood type?",
+    "answers": ["A", "B", "AB-", "O"],
+    "correct": 2
+},
+"128": {
+    "question": "What is the largest species of penguin?",
+    "answers": ["Emperor", "King", "Adelie", "Chinstrap"],
+    "correct": 0
+},
+"129": {
+    "question": "What is the smallest unit of life?",
+    "answers": ["Cell", "Organ", "Tissue", "Organism"],
+    "correct": 0
+},
+"130": {
+    "question": "What is the name of our galaxy?",
+    "answers": ["Andromeda", "Milky Way", "Black Eye", "Whirlpool"],
+    "correct": 1
+}
+
+
+
+
+
+
+
+
+
+}
