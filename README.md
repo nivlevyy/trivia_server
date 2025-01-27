@@ -45,11 +45,11 @@ This project is a multiplayer trivia game built using a client-server architectu
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/trivia-game.git
+   git clone https://github.com/nivlevyy/trivia_server.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd trivia-game
+   cd trivia_server
    ```
 
 ---
